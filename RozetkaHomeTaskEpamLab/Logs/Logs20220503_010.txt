@@ -1,0 +1,8 @@
+2022-05-03 16:13:32.030 +03:00 [INF] Log started
+2022-05-03 16:13:34.359 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 32

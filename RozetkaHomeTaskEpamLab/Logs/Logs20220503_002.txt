@@ -1,0 +1,9 @@
+2022-05-03 11:43:03.124 +03:00 [INF] Log started
+2022-05-03 12:54:11.283 +03:00 [INF] Log started
+2022-05-03 12:54:12.486 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //input[@class='search-form__input ng-untouched ng-pristine ng-valid']
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.HomePage.SendKeysToSearchInput(String typeOfGood) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\HomePage.cs:line 25
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 25

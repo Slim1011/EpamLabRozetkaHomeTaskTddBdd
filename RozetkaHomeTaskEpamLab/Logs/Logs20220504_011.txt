@@ -1,0 +1,22 @@
+2022-05-04 15:18:07.715 +03:00 [INF] Log started
+2022-05-04 15:18:07.718 +03:00 [INF] Log closed
+2022-05-04 15:18:24.057 +03:00 [INF] Log closed
+2022-05-04 15:18:24.184 +03:00 [INF] Log closed
+2022-05-04 15:18:52.577 +03:00 [INF] Log started
+2022-05-04 15:18:52.577 +03:00 [INF] Log started
+2022-05-04 15:18:52.577 +03:00 [INF] Log started
+2022-05-04 15:19:03.012 +03:00 [ERR] Error log
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.get_Displayed()
+   at SeleniumExtras.PageObjects.WebElementProxy.get_Displayed()
+   at RozetkaHomeTaskEpamLab.rozetkaPages.BasePage.<>c__DisplayClass6_0.<WaitElementIsEnable>b__0(IWebDriver driver) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\BasePage.cs:line 50
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.BasePage.WaitElementIsEnable(Int32 timeToWait, IWebElement element) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\BasePage.cs:line 50
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 33
+2022-05-04 15:19:03.239 +03:00 [INF] Log closed

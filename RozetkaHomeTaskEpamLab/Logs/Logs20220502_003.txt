@@ -1,0 +1,56 @@
+2022-05-02 15:14:22.728 +03:00 [INF] Log started
+2022-05-02 15:14:30.683 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 28
+2022-05-02 15:19:03.558 +03:00 [INF] Log started
+2022-05-02 15:19:03.558 +03:00 [INF] Log started
+2022-05-02 15:19:11.362 +03:00 [ERR] Error log
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at SeleniumExtras.PageObjects.WebElementProxy.Click()
+   at RozetkaHomeTaskEpamLab.rozetkaPages.HomePage.ClickSearhcButton() in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\HomePage.cs:line 30
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 26
+2022-05-02 15:19:11.365 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 28
+2022-05-02 15:22:32.351 +03:00 [INF] Log started
+2022-05-02 15:22:32.351 +03:00 [INF] Log started
+2022-05-02 15:22:40.976 +03:00 [ERR] Error log
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at SeleniumExtras.PageObjects.WebElementProxy.Click()
+   at RozetkaHomeTaskEpamLab.rozetkaPages.HomePage.ClickSearhcButton() in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\HomePage.cs:line 30
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 26
+2022-05-02 15:22:40.982 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 28
+2022-05-02 15:24:11.210 +03:00 [INF] Log started
+2022-05-02 15:24:18.161 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 28

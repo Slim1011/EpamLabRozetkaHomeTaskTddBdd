@@ -1,0 +1,42 @@
+2022-05-03 12:54:12.509 +03:00 [INF] Log started
+2022-05-03 12:54:14.091 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //input[@class='search-form__input ng-untouched ng-pristine ng-valid']
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.HomePage.SendKeysToSearchInput(String typeOfGood) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\HomePage.cs:line 25
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 25
+2022-05-03 12:55:35.900 +03:00 [INF] Log started
+2022-05-03 12:55:37.126 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //input[@class='search-form__input ng-untouched ng-pristine ng-valid']
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.HomePage.SendKeysToSearchInput(String typeOfGood) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\HomePage.cs:line 25
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 25
+2022-05-03 13:04:03.442 +03:00 [INF] Log started
+2022-05-03 13:04:10.321 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 28
+2022-05-03 13:04:39.527 +03:00 [INF] Log started
+2022-05-03 13:04:46.396 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //span[contains(text(), 'Алфавитный указатель')]/parent::button/parent::div/preceding-sibling::div/input
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.SendKeysToSearchBrandInput(String brand) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 34
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 28
+2022-05-03 13:21:16.879 +03:00 [INF] Log started
+2022-05-03 13:21:18.114 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Could not find element by: By.XPath: //input[@class='search-form__input ng-untouched ng-pristine ng-valid']
+   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()
+   at SeleniumExtras.PageObjects.WebElementProxy.SendKeys(String text)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.HomePage.SendKeysToSearchInput(String typeOfGood) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\HomePage.cs:line 25
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 29
+2022-05-03 13:22:37.885 +03:00 [INF] Log started
+2022-05-03 13:22:37.885 +03:00 [INF] Log started

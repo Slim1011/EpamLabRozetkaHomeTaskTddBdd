@@ -1,0 +1,15 @@
+2022-05-04 15:00:18.778 +03:00 [INF] Log started
+2022-05-04 15:00:18.778 +03:00 [INF] Log started
+2022-05-04 15:04:19.430 +03:00 [INF] Log started
+2022-05-04 15:04:30.658 +03:00 [ERR] Error log
+OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: по рейтингу
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)
+   at RozetkaHomeTaskEpamLab.rozetkaPages.BasePage.checkSortOfPriceFromDropdownMenu(String typeOfSort) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\BasePage.cs:line 55
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 36
+2022-05-04 15:05:12.755 +03:00 [INF] Log started
+2022-05-04 15:07:21.084 +03:00 [INF] Log started
+2022-05-04 15:09:51.629 +03:00 [INF] Log started
+2022-05-04 15:11:20.198 +03:00 [INF] Log started
+2022-05-04 15:11:20.198 +03:00 [INF] Log started
+2022-05-04 15:11:20.198 +03:00 [INF] Log started
+2022-05-04 15:11:38.556 +03:00 [INF] Log closed

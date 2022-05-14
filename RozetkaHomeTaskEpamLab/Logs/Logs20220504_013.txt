@@ -1,0 +1,39 @@
+2022-05-04 15:19:07.701 +03:00 [INF] Log started
+2022-05-04 15:19:08.194 +03:00 [ERR] Error log
+NUnit.Framework.AssertionException:   Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition)
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 43
+2022-05-04 15:19:08.291 +03:00 [INF] Log closed
+2022-05-04 15:19:16.438 +03:00 [INF] Log closed
+2022-05-04 15:19:17.296 +03:00 [ERR] Error log
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at SeleniumExtras.PageObjects.WebElementProxy.Click()
+   at RozetkaHomeTaskEpamLab.rozetkaPages.SearchPage.ChooseFirstGood() in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaPages\SearchPage.cs:line 57
+   at RozetkaHomeTaskEpamLab.rozetkaTests.VerifyThatBucketContainsGoodAndPriceIsCorrectTest.VerifyThatBucketContainsGoodWithCorrectPriceTest(Filter filter) in E:\Projects\RozetkaHomeTaskEpamLabNew\RozetkaHomeTaskEpamLab\rozetkaTests\VerifyThatBucketContainsGoodAndPriceIsCorrectTest.cs:line 39
+2022-05-04 15:19:17.429 +03:00 [INF] Log closed
+2022-05-04 15:19:59.016 +03:00 [INF] Log started
+2022-05-04 15:20:07.900 +03:00 [INF] Log closed
+2022-05-04 15:22:41.305 +03:00 [INF] Log started
+2022-05-04 15:22:50.500 +03:00 [INF] Log closed
+2022-05-04 15:23:07.610 +03:00 [INF] Log started
+2022-05-04 15:23:16.780 +03:00 [INF] Log closed
+2022-05-04 15:24:39.738 +03:00 [INF] Log started
+2022-05-04 15:24:48.052 +03:00 [INF] Log closed
+2022-05-04 15:26:19.629 +03:00 [INF] Log started
+2022-05-04 15:26:27.731 +03:00 [INF] Log closed
+2022-05-04 15:26:48.521 +03:00 [INF] Log started
+2022-05-04 15:28:16.856 +03:00 [INF] Log started
+2022-05-04 15:29:58.248 +03:00 [INF] Log started
+2022-05-04 15:30:42.138 +03:00 [INF] Log started
+2022-05-04 15:30:52.344 +03:00 [INF] Log closed
